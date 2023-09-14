@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+li {
+  text-align: start;
+  margin-top: 10px;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+#guess-button {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0CBABA;
+  color: #fff;
+  border: rgb(189, 26, 26);
+  border-radius: 10px;
+  border-color: rgb(203, 46, 46);
+}
+
+#guess-button:hover {
+  background-color: #56f8f8;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.letter {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block
+}
+
+.row
+#grid {
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+input {
+  margin: 30px;
+}
+
+.contenedorLista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.amarillo {
+  font-size: 25px;
+  color: #f3c237;
+}
+
+.verde {
+  font-size: 25px;
+  color: #79b851;
+}
+
+.gris {
+  font-size: 25px;
+  color: #a4aec4;
+}
